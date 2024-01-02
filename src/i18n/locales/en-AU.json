@@ -1,10 +1,5 @@
 {
-  "+rSl7d": {
-    "defaultMessage": "Starter App Project",
-    "description": "Name of project"
-  },
-  "RsbSsm": {
-    "defaultMessage": "Hello world",
-    "description": "Hello message"
-  }
+  "+rSl7d": "Starter App Project",
+  "RsbSsm": "Hello world",
+  "Y1MJI3": "Hello World and {name}!"
 }

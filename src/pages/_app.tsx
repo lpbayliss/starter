@@ -7,7 +7,6 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { useRouter } from 'next/router';
 
 import { api } from '~/utils/api';
-
 import theme from '~/theme';
 import { getMessages } from '~/i18n';
 

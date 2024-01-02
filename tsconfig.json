@@ -26,8 +26,10 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
-    }
+      "~/*": ["./src/*"],
+      "test-utils": ["./src/utils/test-utils"]
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
   "include": [
     ".eslintrc.cjs",
