@@ -4,7 +4,7 @@ const config = {
   parserOptions: {
     project: true,
   },
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "formatjs"],
   extends: [
     "plugin:@next/next/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
@@ -29,6 +29,13 @@ const config = {
       "error",
       {
         checksVoidReturn: { attributes: false },
+      },
+    ],
+    'formatjs/no-offset': 'error',
+    'formatjs/enforce-id': [
+      'error',
+      {
+        idInterpolationPattern: '[sha512:contenthash:base64:6]',
       },
     ],
   },
