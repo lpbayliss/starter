@@ -12,7 +12,12 @@
     "db:generate": "dotenv drizzle-kit generate:pg",
     "db:migrate": "node ./migrate.mjs",
     "db:studio": "dotenv drizzle-kit studio",
-    "i18n:extract": "formatjs extract src/**/*.ts* --out-file src/i18n/locales/en-AU.json --id-interpolation-pattern [sha512:contenthash:base64:6] --flatten"
+    "i18n:extract": "formatjs extract src/**/*.ts* --out-file src/i18n/locales/en-AU.json --id-interpolation-pattern [sha512:contenthash:base64:6] --flatten",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/*/**": "eslint --fix",
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^0.3.6",
@@ -53,6 +58,9 @@
     "drizzle-kit": "^0.20.9",
     "eslint": "^8.54.0",
     "eslint-plugin-formatjs": "^4.11.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
     "typescript": "^5.1.6"
   },
   "ct3aMetadata": {
