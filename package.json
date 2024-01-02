@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "lint": "next lint",
+    "format": "prettier --write .",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -57,6 +58,7 @@
     "dotenv-cli": "^7.3.0",
     "drizzle-kit": "^0.20.9",
     "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-formatjs": "^4.11.3",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.0",

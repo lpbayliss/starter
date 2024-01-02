@@ -78,9 +78,7 @@
       "indexes": {
         "account_user_id_idx": {
           "name": "account_user_id_idx",
-          "columns": [
-            "user_id"
-          ],
+          "columns": ["user_id"],
           "isUnique": false
         }
       },
@@ -88,10 +86,7 @@
       "compositePrimaryKeys": {
         "account_provider_provider_account_id_pk": {
           "name": "account_provider_provider_account_id_pk",
-          "columns": [
-            "provider",
-            "provider_account_id"
-          ]
+          "columns": ["provider", "provider_account_id"]
         }
       },
       "uniqueConstraints": {}
@@ -122,9 +117,7 @@
       "indexes": {
         "session_user_id_idx": {
           "name": "session_user_id_idx",
-          "columns": [
-            "userId"
-          ],
+          "columns": ["userId"],
           "isUnique": false
         }
       },
@@ -201,10 +194,7 @@
       "compositePrimaryKeys": {
         "verification_token_identifier_token_pk": {
           "name": "verification_token_identifier_token_pk",
-          "columns": [
-            "identifier",
-            "token"
-          ]
+          "columns": ["identifier", "token"]
         }
       },
       "uniqueConstraints": {}

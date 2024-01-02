@@ -1,7 +1,7 @@
-import { extendTheme, type Theme, type ThemeOverride } from "@chakra-ui/react";
-import { Karla } from "next/font/google";
+import { extendTheme, type Theme, type ThemeOverride } from '@chakra-ui/react';
+import { Karla } from 'next/font/google';
 
-const karla = Karla({ subsets: ["latin"] });
+const karla = Karla({ subsets: ['latin'] });
 
 const overrides: ThemeOverride = {
   fonts: {
@@ -9,7 +9,7 @@ const overrides: ThemeOverride = {
     body: karla.style.fontFamily,
   },
   config: {
-    initialColorMode: "system",
+    initialColorMode: 'system',
     useSystemColorMode: true,
   },
 };

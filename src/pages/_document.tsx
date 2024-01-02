@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-document-import-in-page */
-import { ColorModeScript } from "@chakra-ui/react";
-import Document, { Head, Html, Main, NextScript } from "next/document";
-import theme from "~/theme";
+import { ColorModeScript } from '@chakra-ui/react';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
+import theme from '~/theme';
 
 class MyDocument extends Document {
   render() {
