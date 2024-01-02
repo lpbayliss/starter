@@ -20,6 +20,11 @@ Start development mode with `pnpm dev`
 
 ## Tools
 
+- Jest
+- Testing Library
+- Playwright
+- Prettier
+- ESLint
 - [fly.io](https://fly.io)
 - [pnpm](https://pnpm.io)
 - [Next.js](https://nextjs.org)
